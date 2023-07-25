@@ -22,7 +22,7 @@ menuIcon.onclick = () => {
 
     function NewTab() {
       window.open(
-        "https://drive.google.com/file/d/1-iiaCwvaytlakUa2JmpTD0DDWKQprSxR/view?usp=share_link",
+        "https://drive.google.com/file/d/1-iiaCwvaytlakUa2JmpTD0DDWKQprSxR/view?usp=sharing",
         "_blank"
       );
     }
@@ -76,9 +76,36 @@ ScrollReveal().reveal('.home-content p, .about-content', { origin:'left'});
 // *===============================  typed js==================================
 
 const typed = new Typed('.multiple-text', {
-  strings: ['Full Stack Web Developer', 'Backend Developer', 'Frontend Developer'],
+  strings: ['Full Stack Web Developer', 'MERN Stack Developer', 'Frontend Developer'],
   typeSpeed: 100,
   backSpeed: 100,
   backdelay: 1000,
   loop: true
+})
+
+
+const btn = document.querySelector('.toggleBtn')
+const moveBtn = document.querySelector('.bgMove')
+const fa = document.querySelector('.fa-solid')
+const faMoon = document.querySelector('.fa-moon')
+
+btn.addEventListener('click', function () {
+    moveBtn.classList.toggle('active')
+
+    fa.classList.toggle('dark')
+
+    faMoon.classList.toggle('active')
+    if (moveBtn.classList == 'active') {
+        faMoon.classList.add('moon-active')
+    }
+    else {
+        faMoon.classList.remove('moon-active')
+    }
+    // Apply condition when toggle button is active and deactive
+    if (moveBtn.classList.contains('active')) {
+        document.body.classList.add('dark')
+    }
+    else {
+        document.body.classList.remove('dark')
+    }
 })
