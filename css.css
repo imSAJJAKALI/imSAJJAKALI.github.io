@@ -31,7 +31,7 @@ body {
     --bg-wild-blue-yonder: hsla(216, 33%, 68%, 1);
     --bg-carolina-blue: rgb(87, 179, 216);
     --bg-prussian-blue: rgb(200, 207, 218);
-    --bg-oxford-blue: rgb(78, 104, 175);
+    --bg-oxford-blue: #35A29F;
     --bg-oxford-blue-2: rgb(222, 229, 240);
     --bg-color: #93acda;
     --second-bg-color: #eff3fa;
@@ -838,7 +838,7 @@ body.dark {
     border: 1px solid var(--border-prussian-blue);
   }
   .skills-card-name {
-    color: #7d91b0;
+    color: #1450A3;
   }
 
 
