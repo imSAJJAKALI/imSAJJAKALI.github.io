@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.c9388975.css",
-    "main.js": "/static/js/main.fb9f7695.js",
+    "main.js": "/static/js/main.6da9b307.js",
     "static/media/Belk_clone.png": "/static/media/Belk_clone.bbe69266d4ca6df2037a.png",
     "static/media/react.png": "/static/media/react.fb59dfc6bb1bac6b0ad0.png",
     "static/media/crocs.jpg": "/static/media/crocs.b52b5001c310bfa24b74.jpg",
@@ -9,6 +9,7 @@
     "static/media/python-svg-1.png": "/static/media/python-svg-1.50caf9f4b3146cbe7470.png",
     "static/media/triptravel.jpg": "/static/media/triptravel.0e155ef4bb904cc616d5.jpg",
     "static/media/find_my_trip.jpg": "/static/media/find_my_trip.6525df88926d234dda11.jpg",
+    "static/media/code_converter.jpeg": "/static/media/code_converter.e8a7e610cc81e6bf05bd.jpeg",
     "static/media/typescript.png": "/static/media/typescript.659e4b9351cf1baa6930.png",
     "static/media/langchain.png": "/static/media/langchain.256fcbffdc90e42d8b15.png",
     "static/media/vscode.png": "/static/media/vscode.e9d0d0ea59c04d35a64f.png",
@@ -21,10 +22,10 @@
     "static/media/nodejs-original.svg": "/static/media/nodejs-original.10c9e2aa0ca7edf36fceae25fec038a1.svg",
     "index.html": "/index.html",
     "main.c9388975.css.map": "/static/css/main.c9388975.css.map",
-    "main.fb9f7695.js.map": "/static/js/main.fb9f7695.js.map"
+    "main.6da9b307.js.map": "/static/js/main.6da9b307.js.map"
   },
   "entrypoints": [
     "static/css/main.c9388975.css",
-    "static/js/main.fb9f7695.js"
+    "static/js/main.6da9b307.js"
   ]
 }
